@@ -96,9 +96,9 @@ Produksi, Pemasaran, dan Distribusi mewarisi seluruh atribut umum pegawai (__id_
    Program manggil method `toko.printInfoToko()` untuk show informasi toko. Karena list pegawai di dalam toko masih kosong, tampilan bakal menunjukkan bahwa belum ada data pegawai di setiap divisi.
 4. **Pembuatan Objek Pegawai Baru**
    Program membuat instance/objek pegawai statis baru dari masing-masing divisi beserta informasinya:
-   - `p1` (Produksi)**: Memuat data pegawai produksi "Big Nyahu" dengan tugas "Bumbui Lidi-Lidian".
-   - `m1` (Pemasaran)**: Memuat data pegawai pemasaran "PasmingPuh" yang mengurus "Shopee & IG".
-   - `d1` (Distribusi)**: Memuat data pegawai distribusi "Rocky Batu Gak Gerung" dengan kendaraan "Mobil Box".
+   - `p1` (Produksi): Memuat data pegawai produksi "Big Nyahu" dengan tugas "Bumbui Lidi-Lidian".
+   - `m1` (Pemasaran): Memuat data pegawai pemasaran "PasmingPuh" yang mengurus "Shopee & IG".
+   - `d1` (Distribusi): Memuat data pegawai distribusi "Rocky Batu Gak Gerung" dengan kendaraan "Mobil Box".
 5. **Penambahan Data ke Toko**
    Objek `p1`, `m1`, dan `d1` dimasukkan ke dalam list penampung komposit toko menggunakan method `toko.addProduksi(p1)`, `toko.addPemasaran(m1)`, dan `toko.addDistribusi(d1)`.
 6. **Konfirmasi & Cetak Kondisi Akhir (Sesudah Ditambahkan)**
