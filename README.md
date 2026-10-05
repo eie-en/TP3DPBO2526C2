@@ -112,3 +112,7 @@ Produksi, Pemasaran, dan Distribusi mewarisi seluruh atribut umum pegawai (__id_
    <img width="689" height="390" alt="Screenshot 2026-10-05 180313" src="https://github.com/user-attachments/assets/571d46f3-573d-4953-9730-e8f0ca921aa7" />
 
 2. CPP
+
+   <img width="483" height="125" alt="image" src="https://github.com/user-attachments/assets/40b956c2-a814-40bb-97d8-db852ef22d0c" />
+
+   <img width="691" height="385" alt="image" src="https://github.com/user-attachments/assets/95e9fe5b-2d45-4859-bb34-51bb01e3aea0" />
