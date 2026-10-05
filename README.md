@@ -87,4 +87,28 @@ Produksi, Pemasaran, dan Distribusi mewarisi seluruh atribut umum pegawai (__id_
 2. Composition di sini UsahaSnackLokal adalah kompositnya, yang mempunyai komponen : Produksi, Pemasaran, dan Distribusi. Karena menurut saya, usaha basreng ini memiliki atau hubungan "Has-A" dengan kelas kelas tersebut. Berjalannya usaha karena ada pegawai di dalamnya. Jadi kelas UsahaSnackLokal ini nampung list pegawai melalui atribut ListProduksi, ListPemasaran, dan ListDistribusi.
 
 𑣲⋆ Alur Program
-1. 
+
+1. **Import Module/Kelas**
+   Impor kelas `Produksi`, `Pemasaran`, `Distribusi`, dan `UsahaSnackLokal` dari masing-masing filenya agar method serta strukturnya bisa digunakan di dalam fungsi utama.
+2. **Inisialisasi Toko Utama**
+   Create objek `toko` dari kelas UsahaSnackLokal pake parameter nama toko `"Generasi Micin"` dan nama pemilik `"SiapaAja"`.
+3. **Cetak Kondisi Awal (Sebelum Ditambahkan)**
+   Program manggil method `toko.printInfoToko()` untuk show informasi toko. Karena list pegawai di dalam toko masih kosong, tampilan bakal menunjukkan bahwa belum ada data pegawai di setiap divisi.
+4. **Pembuatan Objek Pegawai Baru**
+   Program membuat instance/objek pegawai statis baru dari masing-masing divisi beserta informasinya:
+   - `p1` (Produksi)**: Memuat data pegawai produksi "Big Nyahu" dengan tugas "Bumbui Lidi-Lidian".
+   - `m1` (Pemasaran)**: Memuat data pegawai pemasaran "PasmingPuh" yang mengurus "Shopee & IG".
+   - `d1` (Distribusi)**: Memuat data pegawai distribusi "Rocky Batu Gak Gerung" dengan kendaraan "Mobil Box".
+5. **Penambahan Data ke Toko**
+   Objek `p1`, `m1`, dan `d1` dimasukkan ke dalam list penampung komposit toko menggunakan method `toko.addProduksi(p1)`, `toko.addPemasaran(m1)`, dan `toko.addDistribusi(d1)`.
+6. **Konfirmasi & Cetak Kondisi Akhir (Sesudah Ditambahkan)**
+   Program mencetak pesan konfirmasi keberhasilan, lalu memanggil kembali `toko.printInfoToko()`. Pada tahap ini, seluruh data pegawai baru yang telah ditambahkan akan ditampilkan secara lengkap berdasarkan divisinya masing-masing.
+
+## .✦ ݁˖ Dokumentasi
+1. Python
+   
+   <img width="631" height="182" alt="Screenshot 2026-10-05 180301" src="https://github.com/user-attachments/assets/8e61b3b6-9c2e-4d95-8fdc-9a5c9a91a34c" />
+
+   <img width="689" height="390" alt="Screenshot 2026-10-05 180313" src="https://github.com/user-attachments/assets/571d46f3-573d-4953-9730-e8f0ca921aa7" />
+
+2. CPP
